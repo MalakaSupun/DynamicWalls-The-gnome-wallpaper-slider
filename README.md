@@ -7,27 +7,30 @@
 ---
 
 <h1 align="center">
-  Gnome_Wallpaper_Change
+  DynamicWalls: The gnome wallpaper slider
 </h1>
 
+
+<p align="center">
+... To Change the wallpaper consonantly in given time as a slidshow ...
 <d align='justify'>
 
+#
 
-To Change the wallpaper consonantly in given time...
-## Introduction
+## 🧩 Introduction
 
 I started this project because Ubuntu did not have a built-in wallpaper slider. This tool aims to fill that gap by providing an easy-to-use solution for automatically changing wallpapers at specified intervals.
 
 
-🌟 **Used in Ubuntu 24.04.**
+🌟 **Used and teated in Ubuntu 24.04.**
 
-## Features
+## 🔧 Features
 
 - 🖼️ Automatically change the wallpaper at specified intervals
 - 📷 Supports multiple image formats
 - ⚡ Lightweight and easy to use
 
-## Installation
+## 🧑‍🔧 Installation
 
 1. 📥 Clone the repository:
     ```sh
@@ -49,7 +52,7 @@ I started this project because Ubuntu did not have a built-in wallpaper slider. 
     ./change_wallpaper.sh
     ```
 
-## Usage
+## 🎯 Usage 📱
 
 1.  🖼️ Update Crontab : Update your crontab entry to ensure it's running the script every 10 minutes
     ```sh
@@ -63,12 +66,16 @@ I started this project because Ubuntu did not have a built-in wallpaper slider. 
     ```sh
     ./change_wallpaper.sh
     ```
-## Contributing
+## 💁🏽 Contributing
 
 🤝 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
+## 💳 License
 
 📜 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+
+## 🤗 Thanks!
+
+👩🏻‍💻 Special thanks to [ChatGPT](https://www.openai.com/chatgpt) for providing assistance and support throughout the development of this project.
