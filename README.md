@@ -74,8 +74,9 @@ I started this project because Ubuntu did not have a built-in wallpaper slider. 
 
 📜 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
 ## 🤗 Thanks!
 
 👩🏻‍💻 Special thanks to [ChatGPT](https://www.openai.com/chatgpt) for providing assistance and support throughout the development of this project.
+
+---
