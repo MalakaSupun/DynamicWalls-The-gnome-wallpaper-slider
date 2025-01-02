@@ -13,7 +13,7 @@
 <d align='justify'>
 
 
-To Change the wallpaper consonantly for given time...............
+To Change the wallpaper consonantly in given time...
 ## Introduction
 
 I started this project because Ubuntu did not have a built-in wallpaper slider. This tool aims to fill that gap by providing an easy-to-use solution for automatically changing wallpapers at specified intervals.
@@ -37,19 +37,32 @@ I started this project because Ubuntu did not have a built-in wallpaper slider. 
     ```sh
     cd DynamicWalls-The-gnome-wallpaper-slider
     ```
-3. 🛠️ Run the installation script:
+
+3. 🎨 Change the wallpaper folder link in ```change_wallpaper.sh``` accordingly:    
     ```sh
-    ./install.sh
+    # Directory containing wallpapers
+    WALLPAPER_DIR="$HOME/< Path to your cloned folder >/DynamicWalls-The-gnome-wallpaper-slider/Wallpapers" 
+    ```
+    
+4. 🛠️ Test the Script: Run the script manually to ensure it works correctly with your current theme:
+    ```sh
+    ./change_wallpaper.sh
     ```
 
 ## Usage
 
-1. 🚀 Start the wallpaper changer:
+1.  🖼️ Update Crontab : Update your crontab entry to ensure it's running the script every 10 minutes
     ```sh
-    ./start.sh
+    crontab -e
     ```
-2. 📝 Configure the time interval and wallpaper directory in the `config.json` file.
-
+2.  📝 Add the following line to the crontab file:
+    ```sh
+    */10 * * * * /< Path to your cloned folder >/DynamicWalls-The-gnome-wallpaper-slider/change_wallpaper.sh >> /home/malaka/cron_log.txt 2>&1
+     ```
+3. 🚀 Start the wallpaper changer by manually:
+    ```sh
+    ./change_wallpaper.sh
+    ```
 ## Contributing
 
 🤝 Contributions are welcome! Please fork the repository and submit a pull request.
